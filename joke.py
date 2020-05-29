@@ -1,7 +1,7 @@
 import pyjokes
 
 def tell():
-    the_joke = pyjokes.get_jokes()
+    the_joke = pyjokes.get_joke()
     print(the_joke)
     return the_joke
 
